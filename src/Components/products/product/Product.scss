@@ -1,0 +1,39 @@
+.product{
+    max-width: 350px;
+    min-height: 350px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: lightgray;
+    // margin-bottom: 10px;
+    &-media{
+        height: 200px;
+        &__image{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+    &-detail{
+        &__title{
+            font-size: 22px;
+            font-weight: 600;
+        }
+        &__desc{
+            font-size: 17px;
+            padding: 2px 0;
+        }
+        &__price{
+            font-size: 19px;
+            padding: 2px 0;
+        }
+        &__category{
+            font-size: 18px;
+            padding: 2px 0;
+            color: gray;
+        }
+    }
+
+}
